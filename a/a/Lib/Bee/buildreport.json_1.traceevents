@@ -1,0 +1,627 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1639958825036067, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958825037664, "dur": 83703, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958825121695, "dur": 853980, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958825975697, "dur": 19926, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958832490624, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958832490903, "dur": 6306, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958832497211, "dur": 13137946, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958845635159, "dur": 13924, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958845649736, "dur": 39, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1639958832559210, "dur":1761, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958832560985, "dur":146, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1639958832561165, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1639958832561189, "dur":937, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1639958832562181, "dur":1091, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958832563272, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845606796, "dur":410, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607206, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607231, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607236, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607249, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607254, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607267, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607275, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607288, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607292, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607306, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607309, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607319, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607324, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607336, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607339, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607363, "dur":25, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607388, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607411, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607415, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607425, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607429, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607438, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607442, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607455, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607464, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845607492, "dur":4215, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1639958832562274, "dur":1046, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832563320, "dur":3198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832566526, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1639958832566719, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832566911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832578937, "dur":12367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1639958832591340, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1639958832591372, "dur":14906, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832606324, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832606343, "dur":82581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1639958832688982, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958832689064, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832689232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958832689418, "dur":763487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958833452968, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958833453031, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958833453093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958833453101, "dur":9012638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958842465822, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958842465883, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958842466212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958842466293, "dur":332574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958842798932, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958842798989, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958842799040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958842799046, "dur":471746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958843270853, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958843270899, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958843270970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958843270978, "dur":1031289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844302347, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844302439, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844302544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844302555, "dur":382122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844684731, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844684784, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844684893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844684904, "dur":46529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844731504, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844731569, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844731704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844731713, "dur":133262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844865101, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958844865828, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844865905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958844865913, "dur":148510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1639958845014490, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1639958845014572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958845014578, "dur":562648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1639958845577309, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1639958845577369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1639958845577374, "dur":24478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1639958845601935, "dur":4855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958832562411, "dur":915, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958832563326, "dur":3286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958832566612, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1639958832566689, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958832566897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958832579177, "dur":100480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1639958832679717, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1639958832679827, "dur":8566, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958832688399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958832691904, "dur":4393137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1639958837085108, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958837085169, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958837085228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958837085237, "dur":5683449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958842768770, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958842768830, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958842768938, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958842769359, "dur":482585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958843252050, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958843252141, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958843252619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958843252629, "dur":43945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958843296628, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958843296683, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958843296802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958843296809, "dur":1064721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844361582, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844361632, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844361686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844361691, "dur":324023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844685771, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844685835, "dur":13244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844699111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844699127, "dur":31579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844730770, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844730834, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844730902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844730911, "dur":61785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844792759, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844792817, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844792877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844792887, "dur":125079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844918050, "dur":1105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958844919156, "dur":35099, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844954271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958844954287, "dur":628491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1639958845582839, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1639958845582893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1639958845582898, "dur":23464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1639958845606431, "dur":352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832562666, "dur":672, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832563338, "dur":3185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832566527, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1639958832566632, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832566796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832578892, "dur":100252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1639958832679206, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958832679281, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832679364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832688497, "dur":17750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958832706311, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958832706646, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832706719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958832706733, "dur":746719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958833453513, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958833453584, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958833453637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958833453644, "dur":9154109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958842607822, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958842607876, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958842608062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958842608068, "dur":191189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958842799320, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958842799373, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958842799435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958842799441, "dur":496263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958843295771, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958843295836, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958843295906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958843295926, "dur":1065428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844361408, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844361475, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844361546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844361555, "dur":364190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844725830, "dur":68829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844794659, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844794746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844794755, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844796210, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844796269, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844796359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844796367, "dur":67839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844864294, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958844864380, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844864452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958844864462, "dur":573161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1639958845437729, "dur":1566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1639958845439297, "dur":55053, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958845494368, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1639958845494386, "dur":100673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1639958845595128, "dur":11622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832562244, "dur":1070, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832563314, "dur":3206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832566527, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1639958832566613, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832566690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832578226, "dur":11445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1639958832589722, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1639958832589764, "dur":859, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832590631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832590741, "dur":87702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1639958832678522, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1639958832678588, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832678667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832678683, "dur":10510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1639958832689258, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958832689343, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832689402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958832689464, "dur":763252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958833452765, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958833452838, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958833452891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958833452897, "dur":9346464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958842799430, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958842799483, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958842799535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958842799540, "dur":497400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958843296998, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958843297057, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958843297124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958843297131, "dur":1064418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958844361605, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958844361659, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958844361740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958844361746, "dur":367702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958844729564, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958844729665, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958844729764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958844729774, "dur":847830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1639958845577713, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1639958845577855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1639958845577861, "dur":28730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1639958845606666, "dur":88, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958832562531, "dur":800, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958832563331, "dur":3189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958832566527, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1639958832566627, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958832566735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958832578871, "dur":100367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1639958832679295, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958832679396, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958832679438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958832688432, "dur":4396500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958837085027, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958837085115, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958837085194, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958837085204, "dur":5713579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958842798874, "dur":1709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958842800583, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958842800668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958842800675, "dur":469932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958843270666, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958843270723, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958843270899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958843270913, "dur":1055584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844326544, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844326585, "dur":18450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844345239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844345269, "dur":365133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844710461, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844710526, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844710652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844710662, "dur":48141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844758871, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844758945, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844759017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844759026, "dur":105672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844864776, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958844864842, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844864941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958844864949, "dur":148941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1639958845013974, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1639958845014036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958845014076, "dur":563127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1639958845577273, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1639958845577358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1639958845577370, "dur":24981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1639958845602415, "dur":4363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958832562784, "dur":559, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958832563343, "dur":3214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958832566558, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1639958832566714, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958832566955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958832579149, "dur":100377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1639958832679599, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator.exe" }}
+,{ "pid":12345, "tid":6, "ts":1639958832679657, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958832679742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958832679747, "dur":186385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator.exe" }}
+,{ "pid":12345, "tid":6, "ts":1639958832866168, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958832866202, "dur":410935, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958833277158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958833277175, "dur":9330317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958842607560, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958842607618, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958842607710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958842607718, "dur":191326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958842799095, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958842799143, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958842799255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958842799263, "dur":496732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958843296047, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958843296097, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958843296148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958843296180, "dur":1049903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958844346243, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958844346301, "dur":14306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958844360614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958844360621, "dur":350117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958844710788, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958844710835, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958844710920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958844710929, "dur":153238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958844864243, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958844864390, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958844864457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958844864465, "dur":713288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1639958845577826, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1639958845577919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1639958845577969, "dur":23908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1639958845601980, "dur":4773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832562877, "dur":470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832563347, "dur":3172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832566526, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1639958832566622, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832566782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832589355, "dur":8940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1639958832598368, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1639958832598446, "dur":7838, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832606329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832606343, "dur":82410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1639958832688816, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958832688880, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832688938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832689245, "dur":20766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958832710071, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958832710132, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832710203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958832710212, "dur":742785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958833453048, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958833453128, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958833453181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958833453188, "dur":9013015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958842466265, "dur":66885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958842533151, "dur":74079, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958842607249, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958842607266, "dur":191978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958842799299, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958842799356, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958842799427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958842799437, "dur":497251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958843296797, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958843296858, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958843296924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958843296931, "dur":1064454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958844361433, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958844361489, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958844361539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958844361545, "dur":370235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958844731837, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958844731895, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958844731955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958844731964, "dur":196364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958844928388, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958844928509, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958844928609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958844928617, "dur":654250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1639958845582923, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1639958845582979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1639958845582987, "dur":23486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1639958845606521, "dur":297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832562970, "dur":382, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832563352, "dur":3204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832566557, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1639958832566685, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832566852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832579152, "dur":100163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1639958832679374, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":8, "ts":1639958832679435, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832679485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832679491, "dur":10838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":8, "ts":1639958832690383, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958832690443, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832690492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958832690498, "dur":761601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958833452197, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958833452262, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958833452508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958833452520, "dur":9155827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958842608411, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958842608553, "dur":159911, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958842768480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958842768495, "dur":530031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958843298584, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958843298634, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958843298682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958843298689, "dur":1027660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844326454, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844326517, "dur":18518, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844345221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844345269, "dur":365959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844711296, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844711346, "dur":14188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844725548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844725565, "dur":27026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844752656, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844752713, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844752781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844752791, "dur":111892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844864752, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958844864822, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844864888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958844864895, "dur":148260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1639958845013236, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1639958845013381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958845013476, "dur":23700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1639958845037221, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1639958845037266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958845037272, "dur":545326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1639958845582671, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1639958845582728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1639958845582736, "dur":23492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1639958845606308, "dur":443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958832563045, "dur":311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958832563356, "dur":3165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958832566527, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1639958832566632, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958832566749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958832578880, "dur":101309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1639958832680230, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958832680273, "dur":8107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958832688392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958832690150, "dur":762359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958833452563, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958833452626, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958833452681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958833452688, "dur":9316817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958842769636, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958842769798, "dur":27541, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958842797357, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958842797376, "dur":498579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958843296015, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958843296069, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958843296129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958843296138, "dur":1050084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844346314, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844346394, "dur":14194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844360603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844360619, "dur":323772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844684461, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844684524, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844684905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844684915, "dur":42958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844727950, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844728017, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844728095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844728106, "dur":136066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844864643, "dur":4735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844869379, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844869509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844869523, "dur":57855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844927441, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958844927500, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844927564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958844927573, "dur":666559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1639958845594171, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1639958845594269, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958845594702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1639958845594713, "dur":11895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1639958845606718, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1639958845606722, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832563121, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832563361, "dur":3172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832566533, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1639958832566622, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832566722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832590842, "dur":88135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1639958832679040, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1639958832679100, "dur":9227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832688347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832688366, "dur":15132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1639958832703642, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958832703722, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832703828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832703839, "dur":23333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958832727241, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958832727322, "dur":137469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832864901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958832865127, "dur":9934968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958842800152, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958842800207, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958842800265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958842800273, "dur":496328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958843296660, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958843296791, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958843296924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958843296932, "dur":1064336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844361329, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844361426, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844361488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844361494, "dur":349428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844710973, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844711126, "dur":14407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844725548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844725565, "dur":53604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844779231, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844779389, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844779577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844779587, "dur":39010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844818695, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958844818759, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844818831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958844818846, "dur":195874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1639958845014779, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1639958845014838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958845014844, "dur":567119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1639958845582029, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1639958845582097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1639958845582106, "dur":24460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1639958845606629, "dur":172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958832563209, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958832563368, "dur":3190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958832566558, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1639958832566652, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958832566766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958832579168, "dur":100110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1639958832679324, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958832679418, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958832679462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958832679466, "dur":10110244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958842789776, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958842789872, "dur":7466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958842797357, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958842797376, "dur":473448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958843270880, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958843270934, "dur":13119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958843284070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958843284086, "dur":1077108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958844361268, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958844361322, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958844361373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958844361379, "dur":364668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958844726113, "dur":233062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958844959177, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958844959319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958844959333, "dur":43401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958845002812, "dur":1124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958845003936, "dur":8604, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958845012560, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958845012583, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1639958845014585, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1639958845014662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958845014671, "dur":479899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1639958845494646, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1639958845494727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1639958845494736, "dur":100645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level3.resS" }}
+,{ "pid":12345, "tid":11, "ts":1639958845595444, "dur":11305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832563274, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832563275, "dur":3238, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832566527, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1639958832566530, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832566593, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1639958832566595, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832566665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832567496, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1639958832569676, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1639958832569713, "dur":8610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832578330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832590697, "dur":16366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1639958832607118, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1639958832607172, "dur":12755, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832619944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832619961, "dur":69678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1639958832689708, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958832689779, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832689972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958832689980, "dur":763542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958833453580, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958833453635, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958833453695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958833453701, "dur":9314991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958842768775, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958842768866, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958842769426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958842769433, "dur":482502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958843252153, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958843252249, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958843252615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958843252625, "dur":1093587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844346309, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844346393, "dur":14195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844360603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844360619, "dur":325324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844686045, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844686100, "dur":12980, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844699105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844699127, "dur":50579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844749842, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844749907, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844749975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844749985, "dur":177334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844927392, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958844927458, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844927543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958844927553, "dur":85812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1639958845013471, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1639958845013549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958845013554, "dur":208555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1639958845222145, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1639958845222262, "dur":133591, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958845355868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958845355881, "dur":226688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1639958845582647, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1639958845582724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1639958845582732, "dur":23907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/jroca/Desktop/Cannon Simulator/Cannon Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1639958845606706, "dur":104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1639958845615721, "dur":2603, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1639958845649940, "dur": 1087, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1639958845649721, "dur": 1339, "ph": "X", "name": "Write chrome-trace events", "args": {} },
